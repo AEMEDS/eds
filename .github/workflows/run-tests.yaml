@@ -1,9 +1,8 @@
 name: Linting
 
 on:
-  push:
-    branches:
-      - develop
+   schedule:
+    - cron: '*/5 * * * *'  # Runs every 5 min
 
 jobs:
   build:
