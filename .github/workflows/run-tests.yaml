@@ -1,7 +1,7 @@
 name: Linting
 on:
    schedule:
-    - cron: '*/3 * * * *'  # Runs every 3 min
+    - cron: '*/10 * * * *'  # Runs every 3 min
 
 jobs:
   build:
