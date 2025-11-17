@@ -1,6 +1,7 @@
 name: Linting
-
-on: [pull_request]
+on:
+   schedule:
+    - cron: '*/3 * * * *'  # Runs every 3 min
 
 jobs:
   build:
